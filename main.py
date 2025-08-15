@@ -37,7 +37,7 @@ jump_muscle = rbs.muscle_list[0]
 qh = [hip.q] # joint angles list, used for plotting
 tauh = [hip.tau] # joint torques list, used for plotting
 
-rbs_anim = RbsAnimation(update_time_step=dt, rigid_body_system=rbs, adaptive= True, ratio=2)
+rbs_anim = RbsAnimation(update_time_step=dt, rigid_body_system=rbs, adaptive= True, ratio=0.1)
 
 # print('moving on')
 
