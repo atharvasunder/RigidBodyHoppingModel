@@ -1,5 +1,5 @@
 # RigidBodyHoppingModel
-Two Segment Hopping Model Actuated by a Hill-Type Muscle (with each segment having mass)
+Two Segment Hopping Model Actuated by a Hill-Type Muscle (with each segment having mass unlike in the original model which approximated the segments as massless)
 
 Python implementation of the 2003 paper "Positive force feedback in bouncing gaits?" with each segment having mass. FIFO Buffers are used to simulate delays in feedback. Here is a video of the simulation
 
